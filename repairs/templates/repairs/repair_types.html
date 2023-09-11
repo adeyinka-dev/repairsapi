@@ -1,0 +1,9 @@
+<h1>All Repairs Type</h1>
+
+{% for repair in object_list %}
+<ul>
+    <li>Type: {{ repair.type }}</li>
+    <li>Subtype: {{ repair.subtype }}</li>
+</ul>
+
+{% endfor %}
